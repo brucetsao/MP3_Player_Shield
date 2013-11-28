@@ -21239,10 +21239,10 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;</description>
 <part name="C18" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
 <part name="C19" library="SparkFun" deviceset="CAP" device="0603-CAP" value="3.3nF"/>
 <part name="C20" library="SparkFun" deviceset="CAP" device="0603-CAP" value="3.3nF"/>
-<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_PNP" device="SMD"/>
-<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_PNP" device="SMD"/>
-<part name="Q4" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="SOT23-3"/>
-<part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="SOT23-3"/>
+<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_PNP" device="SMD" value="PMBT3906"/>
+<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_PNP" device="SMD" value="PMBT3906"/>
+<part name="Q4" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222"/>
+<part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222"/>
 <part name="GND29" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND30" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND31" library="SparkFun" deviceset="GND" device=""/>
@@ -21445,10 +21445,22 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;</description>
 <instance part="C18" gate="G$1" x="292.1" y="40.64" rot="MR270"/>
 <instance part="C19" gate="G$1" x="281.94" y="66.04"/>
 <instance part="C20" gate="G$1" x="281.94" y="33.02"/>
-<instance part="Q2" gate="G$1" x="335.28" y="40.64" rot="MR0"/>
-<instance part="Q3" gate="G$1" x="335.28" y="73.66" rot="MR0"/>
-<instance part="Q4" gate="G$1" x="314.96" y="33.02" rot="MR0"/>
-<instance part="Q5" gate="G$1" x="314.96" y="66.04" rot="MR0"/>
+<instance part="Q2" gate="G$1" x="335.28" y="40.64" smashed="yes" rot="MR0">
+<attribute name="NAME" x="337.82" y="38.1" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="335.28" y="35.56" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="Q3" gate="G$1" x="335.28" y="73.66" smashed="yes" rot="MR0">
+<attribute name="NAME" x="337.82" y="71.12" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="335.28" y="68.58" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="Q4" gate="G$1" x="314.96" y="33.02" smashed="yes" rot="MR0">
+<attribute name="NAME" x="317.5" y="30.48" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="314.96" y="27.94" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="Q5" gate="G$1" x="314.96" y="66.04" smashed="yes" rot="MR0">
+<attribute name="NAME" x="317.5" y="63.5" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="314.96" y="60.96" size="1.778" layer="96" rot="MR180"/>
+</instance>
 <instance part="GND29" gate="1" x="312.42" y="22.86"/>
 <instance part="GND30" gate="1" x="281.94" y="58.42"/>
 <instance part="GND31" gate="1" x="302.26" y="55.88"/>
