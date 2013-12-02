@@ -1,4 +1,5 @@
-MP3 Player Shield - Play MP3s from an SD card!
+MP3 Player Shield 
+NOTE: This branch is currently under Revision
 ==================
 
 [![MP3 Player Shield](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/0/8/4/11084-01_medium.jpg)  
