@@ -21515,9 +21515,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;</description>
 <text x="327.66" y="264.16" size="1.778" layer="97">Moved LED to 3.3V rail to load regulator</text>
 <text x="327.66" y="269.24" size="1.778" layer="97">Added microSD</text>
 <text x="327.66" y="266.7" size="1.778" layer="97">Added 74HC4050 LVL Converter</text>
-<text x="327.66" y="223.52" size="1.778" layer="97">Push 3.5mm R/L schematic symbol to main fp branch</text>
 <text x="325.12" y="256.54" size="1.778" layer="97">New on v1.4:</text>
-<text x="325.12" y="226.06" size="1.778" layer="97">Todo</text>
 <text x="327.66" y="254" size="1.778" layer="97">Added solder jumper to select between GBUF and GND</text>
 <text x="370.84" y="172.72" size="1.778" layer="97">Connect GBUF if attaching amplifier</text>
 <text x="370.84" y="167.64" size="1.778" layer="97">Connect GND if attaching external
