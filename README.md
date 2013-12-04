@@ -2,7 +2,7 @@ MP3 Player Shield
 NOTE: This branch is currently under Revision
 ==================
 
-[![MP3 Player Shield](https://dlnmh9ip6v2uc.cloudfront.net//images/products/1/0/6/2/8/10628-01b.jpg)  
+[![MP3 Player Shield](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/0/6/2/8/10628-01b_i_ma.jpg)  
 *MP3 Player Shield (SEN-11084)*](https://www.sparkfun.com/products/10628)
 
 The MP3 Player Shield has a microSD socket, VS1053 decoder IC and all the supporting circuitry to be able to decode and play MP3s from an Arduino.
